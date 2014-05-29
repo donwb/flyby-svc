@@ -10,6 +10,8 @@ function getStatus() {
 
         if(status === 'in') {
             $('#donwb').addClass('home').removeClass('away');
+        } else {
+            $('#donwb').addClass('away').removeClass('home');
         }
     });
 }

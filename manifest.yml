@@ -1,0 +1,5 @@
+applications:
+- name: flyby-svc
+  instances: 1
+  memory: 512M
+  command: node bin/www
